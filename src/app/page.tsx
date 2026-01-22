@@ -1,4 +1,5 @@
 'use client'
+
 import { Dithering } from '@paper-design/shaders-react'
 import Link from 'next/link'
 import { useEffect } from 'react'
@@ -34,7 +35,7 @@ function page() {
   }, []);
 
   return (
-    <div className='min-h-screen w-screen bg-gradient-to-b from-[#3b3b3b] to-[#151515] relative overflow-x-hidden'>
+    <div className='min-h-screen w-screen bg-linear-to-b from-[#3b3b3b] to-[#151515] relative overflow-x-hidden'>
       {/* do not change */}
       <Dithering
         speed={1}
@@ -45,10 +46,10 @@ function page() {
         frame={2084114.5999994797}
         colorBack="#00000000"
         colorFront="#FFFFFF"
-        className="w-full h-full opacity-[0.02] bg-black bg-no-repeat fixed top-0 left-0 inset-0 pointer-events-none"
+        className="w-full h-[110dvh] opacity-[0.02] bg-black bg-no-repeat fixed top-0 left-0 inset-0 pointer-events-none"
       />
 
-      <div className='max-w-2xl mx-auto mt-16 sm:mt-16 px-10 sm:px-6 pb-20 relative z-10 min-h-[calc(100vh-64px)]'>
+      <div className='max-w-2xl mx-auto mt-16 sm:mt-16 px-4 sm:px-6 pb-20 relative z-10 min-h-[calc(100vh-64px)]'>
 
         <div className='relative'>
           <span className='text-[11px] absolute font-medium -top-3.5 opacity-60'>hey, I'm</span>
