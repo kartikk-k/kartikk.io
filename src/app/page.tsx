@@ -71,12 +71,12 @@ function page() {
           <div className='relative flex-1'>
             <span className='text-[11px] absolute font-medium -top-3.5 opacity-60'>hey, I'm</span>
 
-            <Link href={'#'} className='flex flex-col gap-1'>
+            <Link href={'/'} className='flex flex-col gap-1'>
               <span className='text-[#16d99b] font-light'>kartikk</span>
             </Link>
           </div>
 
-          <Link href={'/lab'} className='flex text-sm font-medium text-[#16d99b] h-7 hover:brightness-75 duration-300 relative -top-1'>
+          <Link href={'/designs'} className='flex text-sm font-medium text-[#16d99b] h-7 hover:brightness-75 duration-300 relative -top-1'>
             <span className='flex flex-col'>
               <span
                 className='flex-1 bg-[#16d99b]'
@@ -86,7 +86,7 @@ function page() {
               </svg>
             </span>
             <span className='bg-[#16d99b] text-[13px] text-black flex items-center px-2'>
-              Design Lab
+              designs
             </span>
             <span className='flex flex-col'>
               <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -101,24 +101,28 @@ function page() {
 
         </div>
 
-        <div className='text-white/70 mt-6 text-sm sm:text-base'>
+        <div className='text-white/70 mt-10 text-sm sm:text-base'>
           <p className='text-white'>
-            Design Engineer building exceptional products.
+            design engineer building exceptional products
           </p>
           <p className='flex flex-wrap items-center gap-x-2 gap-y-1 mt-4 text-sm'>
-            Passionately designing intuitive web app experiences that blend cutting-edge creativity with rock-solid engineering principles.
+            passionately designing web app experiences that blends creativity with strong engineering
           </p>
 
-          <p className='mt-1 text-sm'>
-            I like to
-            &nbsp;<Link href={'/designs'} className='underline'>design</Link>,
-            &nbsp;<Link href={'/crafts'} className='underline'>craft user experiences</Link>,
+          <p className='mt-2 text-sm'>
+            i like to&nbsp;
+            <Link href={'/designs'} className='underline'>design</Link>,&nbsp;
+            <Link href={'/crafts'} className='underline'>craft user experiences</Link>,
             build things very quickly and ship often <Link href={'https://github.com/kartikk-k'} target='_blank' className='italic opacity-60'>{`(visit github)`}</Link>
           </p>
 
-          <p className='mt-6 text-sm'>
-            Currently working at <Link href={'#'} className=''>Legix</Link> as a Founding Design Engineer.
-          </p>
+          <div className='mt-6'>
+            <p className='opacity-60 text-xs'>currently:</p>
+            <p className='text-sm'>
+              working at <Link href={'#'} className=''>Legix</Link> as a Founding Design Engineer
+            </p>
+          </div>
+
         </div>
 
         <div className='text-[13px] mt-8 sm:mt-10 font-medium flex items-start gap-3'>
@@ -132,29 +136,49 @@ function page() {
           </Link>
         </div>
 
-        {/* <div className='mt-20 text-sm'>
+        <div className='mt-20 text-sm'>
           <div className='flex items-center gap-2 relative'>
-            <h3 className='opacity-60'>Lab</h3>
+            <h3 className='opacity-60'>Work</h3>
           </div>
 
-          <div className='mt-4 space-y-3'>
+          <div className='mt-4 space-y-3 text-[13px]'>
 
             <div className='border-b border-dashed border-white/20 pb-3'>
-              <p>Dissolve particles effect</p>
+              <p>Supermemory {"("}Prev: Team member{")"}</p>
+              <p className='text-xs opacity-60 mt-1'>#1 Product of the Day <br />
+                9k+ Github stars</p>
             </div>
 
             <div className='border-b border-dashed border-white/20 pb-3'>
-              <p>Subscribe button interaction</p>
+              <p>Aura Checker {"("}UI Design & Frontend{")"}</p>
+              <p className='text-xs opacity-60 mt-1'>Mentioned and used by team at Groq.com</p>
+            </div>
+
+            <div className='border-b border-dashed border-white/20 pb-3'>
+              <p>Stitionai / Devika {"("}Contributor - UI Design & Frontend{")"}</p>
+              <p className='text-xs opacity-60 mt-1'>Backed by Y Combinator<br />
+                19.1k+ Github stars</p>
+            </div>
+
+            <div className='border-b border-dashed border-white/20 pb-3'>
+              <p>Repochat {"("}Open Source Project{")"}</p>
+              <p className='text-xs opacity-60 mt-1'>Code context for LLMs directly from GitHub repositories</p>
+            </div>
+
+            <div className='border-b border-dashed border-white/20 pb-3'>
+              <p>VisionOS Cricket (Project)</p>
+              <p className='text-xs opacity-60 mt-1'>Concept - experiencing cricket/sports on Apple VisionOS</p>
             </div>
 
           </div>
-        </div> */}
+        </div>
 
 
         <p className='text-white/60 text-xs sm:text-[13px] mt-44'>
           Socials:&nbsp;
           <Link target='_blank' href={'http://x.com/kartik_builds'} className='underline hover:text-white/90'>Twitter</Link> •&nbsp;
           <Link target='_blank' href={'https://github.com/kartikk-k'} className='underline hover:text-white/90'>Github</Link> •&nbsp;
+          <Link target='_blank' href={'https://www.linkedin.com/in/kartik-khorwal'} className='underline hover:text-white/90'>LinkedIn</Link> •&nbsp;
           <Link target='_blank' href={'https://layers.to/kartikk'} className='underline hover:text-white/90'>Layers</Link>
         </p>
 
