@@ -111,9 +111,10 @@ function page() {
 
           <p className='mt-2 text-sm'>
             i like to&nbsp;
-            <Link href={'/designs'} className='underline'>design</Link>,&nbsp;
-            <Link href={'/lab'} className='underline'>craft user experiences</Link>,
-            build things very quickly and ship often <Link href={'https://github.com/kartikk-k'} target='_blank' className='italic opacity-60'>{`(visit github)`}</Link>
+            {/* <Link href={'/designs'} className='underline'>design</Link>,&nbsp; */}
+            design, craft user experiences,
+            {/* <Link href={'/lab'} className='underline'></Link>, */}
+            &nbsp;build things very quickly and ship often <Link href={'https://github.com/kartikk-k'} target='_blank' className='italic opacity-60'>{`(visit github)`}</Link>
           </p>
 
           <div className='mt-6'>
