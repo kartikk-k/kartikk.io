@@ -112,7 +112,7 @@ function page() {
           <p className='mt-2 text-sm'>
             i like to&nbsp;
             <Link href={'/designs'} className='underline'>design</Link>,&nbsp;
-            <Link href={'/crafts'} className='underline'>craft user experiences</Link>,
+            <Link href={'/lab'} className='underline'>craft user experiences</Link>,
             build things very quickly and ship often <Link href={'https://github.com/kartikk-k'} target='_blank' className='italic opacity-60'>{`(visit github)`}</Link>
           </p>
 
@@ -138,43 +138,53 @@ function page() {
 
         <div className='mt-20 text-sm'>
           <div className='flex items-center gap-2 relative'>
-            <h3 className='opacity-60'>Work</h3>
+            <h3 className='opacity-60 text-[13px]'>Highlighted work</h3>
           </div>
 
           <div className='mt-4 space-y-3 text-[13px]'>
 
             <div className='border-b border-dashed border-white/20 pb-3'>
-              <p>Supermemory {"("}Prev: Team member{")"}</p>
-              <p className='text-xs opacity-60 mt-1'>#1 Product of the Day <br />
-                9k+ Github stars</p>
+              <Link href={'https://www.producthunt.com/products/supermemory'} target='_blank' className='text-[13px]'>
+                <p>Supermemory {"("}Prev: Team member{")"}</p>
+                <p className='text-xs opacity-60 mt-1'>#1 Product of the Day <br />
+                  9k+ Github stars</p>
+              </Link>
             </div>
 
             <div className='border-b border-dashed border-white/20 pb-3'>
-              <p>Aura Checker {"("}UI Design & Frontend{")"}</p>
-              <p className='text-xs opacity-60 mt-1'>Mentioned and used by team at Groq.com</p>
+              <Link href={'https://x.com/GroqInc/status/1890086837903151607?s=20'} target='_blank' className='text-[13px]'>
+                <p>Aura Checker {"("}UI Design & Frontend{")"}</p>
+                <p className='text-xs opacity-60 mt-1'>Mentioned and used by team at Groq.com</p>
+              </Link>
             </div>
 
             <div className='border-b border-dashed border-white/20 pb-3'>
-              <p>Stitionai / Devika {"("}Contributor - UI Design & Frontend{")"}</p>
-              <p className='text-xs opacity-60 mt-1'>Backed by Y Combinator<br />
-                19.1k+ Github stars</p>
+              <Link href={'https://github.com/stitionai/devika'} target='_blank' className='text-[13px]'>
+                <p>Stitionai / Devika {"("}Contributor - UI Design & Frontend{")"}</p>
+                <p className='text-xs opacity-60 mt-1'>Backed by Y Combinator<br />
+                  19.1k+ Github stars</p>
+              </Link>
             </div>
 
             <div className='border-b border-dashed border-white/20 pb-3'>
-              <p>Repochat {"("}Open Source Project{")"}</p>
-              <p className='text-xs opacity-60 mt-1'>Code context for LLMs directly from GitHub repositories</p>
+              <Link href={'https://peerlist.io/kartikk/project/repochat'} target='_blank' className='text-[13px]'>
+                <p>Repochat {"("}Open Source Project{")"}</p>
+                <p className='text-xs opacity-60 mt-1'>Code context for LLMs directly from GitHub repositories</p>
+              </Link>
             </div>
 
             <div className='border-b border-dashed border-white/20 pb-3'>
-              <p>VisionOS Cricket (Project)</p>
-              <p className='text-xs opacity-60 mt-1'>Concept - experiencing cricket/sports on Apple VisionOS</p>
+              <Link href={'https://github.com/kartikk-k/visionOS-cricket'} target='_blank' className='text-[13px]'>
+                <p>VisionOS Cricket (Project)</p>
+                <p className='text-xs opacity-60 mt-1'>Concept - experiencing cricket/sports on Apple VisionOS</p>
+              </Link>
             </div>
 
           </div>
         </div>
 
 
-        <p className='text-white/60 text-xs sm:text-[13px] mt-44'>
+        <p className='text-white/60 text-xs sm:text-[13px] mt-32'>
           Socials:&nbsp;
           <Link target='_blank' href={'http://x.com/kartik_builds'} className='underline hover:text-white/90'>Twitter</Link> •&nbsp;
           <Link target='_blank' href={'https://github.com/kartikk-k'} className='underline hover:text-white/90'>Github</Link> •&nbsp;

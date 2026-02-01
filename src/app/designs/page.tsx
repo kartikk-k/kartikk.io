@@ -2,7 +2,6 @@
 
 import Link from 'next/link';
 import Image from 'next/image';
-
 import BarGraphConceptImg from '@/assets/designs/bar-graph-concept.png';
 import ConsumerAppImg from '@/assets/designs/consumer-app.png';
 import F1LapImg from '@/assets/designs/f1-lap.png';
@@ -13,8 +12,14 @@ import PortfolioExampleImg from '@/assets/designs/portfolio-example.png';
 import PosterImg from '@/assets/designs/poster.png';
 import QuickTipToastImg from '@/assets/designs/quick-tip-toast.png';
 import SupermemoryConceptImg from '@/assets/designs/supermemory-concept.png';
+import { useEffect } from 'react';
 
 function page() {
+
+    useEffect(() => {
+        if (typeof window === 'undefined') return;
+        document.body.style.backgroundColor = '#FFFFFF';
+    }, [])
 
     return (
         <div className='min-h-[120dvh] md:min-h-screen w-screen bg-white relative overflow-x-hidden'>
